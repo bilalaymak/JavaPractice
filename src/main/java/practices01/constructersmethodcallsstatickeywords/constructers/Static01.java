@@ -9,6 +9,9 @@ public class Static01 {
       3) if you want every object informed about every update on a class member make it static
        */
 
+    // static variables = can be named as class variables as well, because the variable is attached to the class
+    // non=static variables can be named as object variables or instance(object and instance are synonyms) variables as well
+
         //how to create static variable
         //to make a variable "static", put "static" keyword between "access modifier" and "data type"
 
