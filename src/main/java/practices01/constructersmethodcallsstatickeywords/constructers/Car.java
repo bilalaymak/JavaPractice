@@ -1,4 +1,4 @@
-package practices01.constructersmethodcallsstatickeywords;
+package practices01.constructersmethodcallsstatickeywords.constructers;
 
 public class Car {
 
@@ -20,6 +20,16 @@ public class Car {
     //note2 : constructor name must match with the class name but method name can be any name
     //note 3: constructors are used to create objects but methods are used to create some actions
 
+    //note : if any class you want to use, is in the same package no need to import
+    // but if the class is in the different package, you have to import it
+
+    /*
+    1) we create constructors
+    2) we create objects from constructors
+    3) we create methods from objects
+     */
+
+
     String make = "Toyota";
     String model = "Prius";
     int year = 2020;
@@ -36,8 +46,14 @@ public class Car {
         this.model = model;
         this.year = year;
         this.price = price;
-
     }
+    //we don't have to use all the parameters in the same costructer, we can use some parameters in the constructer
+    public Car(String make,String model,int year) {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+    }
+
 
 
 
