@@ -21,5 +21,6 @@ public class DoWhile03 {
          s = s + "*" + r;
          i++;
         }while (i < decPart.length());
+        System.out.println(s);
     }
 }
