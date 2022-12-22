@@ -1,4 +1,4 @@
-package practices01.loops;
+package practices01.loops.forloops;
 
 import java.util.Scanner;
 
@@ -57,9 +57,70 @@ public class NestedForLoop01 {
             System.out.println();
         }
 
+        System.out.println("**************************");
+        /*
+        Example3: Type code to get the output like
+
+        1
+        1 2
+        1 2 3
+        1 2 3 4
+        1 2 3 4 5
+
+         */
+        System.out.println("please enter the number of the rows ");
+        int numOfRows = input.nextInt();
+
+
+        for (int i = 1; i <= numOfRows ; i++) {
+            for (int k =1; k <=i ; k++) {//we changed the condition to get the number of repetition of rows
+                //if we don't we get 12345 that is all the numbers in the column
+                System.out.print(k);
+            }
+            System.out.println();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

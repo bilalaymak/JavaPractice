@@ -1,4 +1,4 @@
-package practices01.loops;
+package practices01.loops.forloops;
 
 import java.util.Scanner;
 

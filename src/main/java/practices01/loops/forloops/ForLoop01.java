@@ -1,4 +1,4 @@
-package practices01.loops;
+package practices01.loops.forloops;
 
 public class ForLoop01 {
     public static void main(String[] args) {
