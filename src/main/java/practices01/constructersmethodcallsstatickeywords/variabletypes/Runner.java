@@ -17,7 +17,7 @@ public class Runner {
         System.out.println(VariableType01.age);//13
 
         System.out.println(obj.add(3, 5));//8
-        System.out.println(obj.multip(5, 6));//30
+        System.out.println(obj.multiply(5, 6));//30
 
 
     }
