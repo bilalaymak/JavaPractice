@@ -63,7 +63,59 @@ Mehmet
                 System.out.println(w); // Ali , Mark, Tom were printed, because the others are more than 5
         }
 
+        System.out.println();
 
+
+        //example 3 : create a String Array and print the elements before "Tom"
+
+        String names2[] ={"Ali", "Thomas", "Mark", "Jackson", "Tom", "Martin"};
+
+        for (String w:
+             names2) {
+
+            if (w.equals("Tom")){
+                break;
+            }
+            System.out.println(w);
+        }
+
+        System.out.println("***************");
+        //example 4 : create a String Array and print the elements before "Tom" and "Tom"
+
+
+        for (String w:
+                names2) {              //to print Tom also, we drew sout before the condition and break; 1
+            System.out.println(w);     // so sout print Tom and for-each loop runs the condition and break
+                                       // so it looks like do-whole loop to get results
+            if (w.equals("Tom")){
+                break;
+            }
+        }
+
+
+        System.out.println("***********************");
+
+        //example 5 : create a String Array and print the elements different from "Tom"
+        //String names2[] ={"Ali", "Thomas", "Mark", "Jackson", "Tom", "Martin"};
+
+        //1. way
+        for (String w:
+             names2) {
+            if (!w.equals("Tom")){
+                System.out.println(w);
+            }
+        }
+        System.out.println("***************");
+
+        //2. way
+
+        for (String w:
+             names2) {
+            if ((w.equals("Tom"))){
+                continue;
+            }
+            System.out.println(w);
+        }
 
 
 
