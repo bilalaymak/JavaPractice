@@ -1,6 +1,7 @@
 package practices01.arrays.arraysforeachloop;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class Arrays02 {
@@ -55,12 +56,23 @@ public class Arrays02 {
         System.out.println(counter + " words start with a");//2 words start with a
 
 
+        //example 4:  type code to find the longest word in the sentence
 
+        String s1 = "the longest word in the sentence";
 
-
-
-
-
+        String words[] = s1.split(" ");
+        System.out.println(Arrays.toString(words));//[the, longest, word, in, the, sentence]
+        Arrays.sort(words, Comparator.comparingInt(String::length));
+        /*
+        sort method used with two parameters(String name, parameter)
+        sort(  words,      Comparator.    comparingInt(           String              ::       length));
+             Array name    do comparison  with integer values     go to String class       use length method
+        it means, int the words named Array, compare elements of the array by using String class's length method
+        in integer return type
+         */
+        System.out.println(Arrays.toString(words));//[in, the, the, word, longest, sentence]
+        System.out.println(words[words.length-1]);//sentence
+         //the last index of the array is the longest elements in the array
 
 
 
@@ -70,6 +82,7 @@ public class Arrays02 {
 
     }
 }
+
 
 
 
