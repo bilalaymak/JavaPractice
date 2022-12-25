@@ -1,4 +1,4 @@
-package practices01.loops.whileloops;
+package practices01.loops.dowhileloops;
 
 public class DoWhile03 {
     public static void main(String[] args) {
