@@ -1,6 +1,7 @@
 package practices01.lists;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class List01 {
@@ -76,11 +77,64 @@ public class List01 {
         //note: when you talk about the number of the elements in an array use "length of the array",
         //for the lists use "size of the list"
 
-        //example 1: type
+        //example 1: type code to check if the given list is empty or not?
 
+        List<Character> c = new ArrayList<>();
+        c.add('x');
+        c.add('y');
 
+        //1. way
+        int sizeOfC = c.size();
 
+        if(sizeOfC==0){
+            System.out.println("the list is empty");
+        }else {
+            System.out.println("the list is not empty");
+        }
 
+        //way 2: java created a method to check if a list is empty or not
+        // isEmpty() method returns "true" if the list does not have any element
+        // isEmpty() method returns "false" if the list has at least one element
+
+        boolean isEmpty = c.isEmpty();
+
+        if(isEmpty){
+            System.out.println("the list is empty");
+        }else {
+            System.out.println("the list is not empty");
+        }
+
+        //if java has a method for specific functionality using the method is preferable
+
+        //example 2: type code to check if the list does not have any element different from space
+        // or the list does not have any element
+        // [] ==> acceptable  [ , , ] ==> acceptable as well   [a] ==> not acceptable  ==> logic of question
+
+        //java created a method to check if a list is empty or the list has space in it
+
+        List<String> d = new ArrayList<>();
+        d.add(" ");
+        d.add(" ");
+        d.add(" ");
+        d.add("a");
+        System.out.println(d);//[ ,  ,  , a]
+
+        //to be able to use removeAll() method we need list, therefore we created a list contains space character
+        List<String> e = new ArrayList<>();
+        e.add(" ");
+        e.add("b");
+
+        //removeAll() method is used to remove multiple elements from a list
+        //when you use removeAll() method, you will need a list stores the elements you want to remove
+        d.removeAll(e);// means remove all elements which list e also has elements( common elements)
+        System.out.println(d);//[a]
+        // " " removed but "b" was not removed because it is not common element
+
+        if (d.isEmpty()){//the list has character/s different from space // returned true
+            System.out.println("the list is empty or has just space character");
+        }else {
+            System.out.println("the list has character/s different from space");
+        }
 
 
 
