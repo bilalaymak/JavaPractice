@@ -1,5 +1,8 @@
 package practices01.lists;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class List01 {
     public static void main(String[] args) {
 
@@ -16,7 +19,64 @@ public class List01 {
         //arrays uses memory so less
 
 
+         //how to create array lists
 
+        //1. way:
+        ArrayList<Integer> myList1 = new ArrayList<Integer>();
+
+        //2. way:
+        ArrayList<Integer> myList2 = new ArrayList<>();
+
+        //3. way:
+        List<Integer> myList3 = new ArrayList<>();
+
+        //how to print a list on the console
+        System.out.println(myList3);//[]
+
+        //how to add elements into a list
+        //note: add() method puts the elements in insertion order
+        myList3.add(12);
+        System.out.println(myList3);//[12]
+        myList3.add(7);
+        System.out.println(myList3);//[12, 7]
+        myList3.add(23);
+        System.out.println(myList3);//[12, 7, 23]
+
+        //how to add an element into a specific endex
+        myList3.add(1,50);//added it to 1. index
+        System.out.println(myList3);//[12, 50, 7, 23]
+
+        myList3.add(3,99);// we added 99 to 3. index
+        System.out.println(myList3);//[12, 50, 7, 99, 23]
+
+        //how to join two lists
+
+        List<String> a = new ArrayList<>();
+        a.add("A");
+        a.add("B");
+        List<String> b = new ArrayList<>();
+        b.add("X");
+        b.add("Y");
+        b.add("Z");
+
+        a.addAll(b);
+        System.out.println(a);//[A, B, X, Y, Z]
+        System.out.println(b);//[X, Y, Z]
+
+        a.addAll(1,b);// we added List b ==>[X, Y, Z] to 1. index of List a
+        System.out.println(a);//[A, X, Y, Z, B, X, Y, Z]
+
+        //how to get the number of elements in a list
+        int sizeOfA = a.size();
+        System.out.println(sizeOfA);//8
+
+        int sizeOfB = b.size();
+        System.out.println(sizeOfB);//3
+
+        //note: when you talk about the number of the elements in an array use "length of the array",
+        //for the lists use "size of the list"
+
+        //example 1: type
 
 
 
