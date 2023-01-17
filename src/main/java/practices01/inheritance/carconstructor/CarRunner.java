@@ -17,5 +17,14 @@ public class CarRunner {
         brand new
         2023
          */
+
+        //when you create your own constructor in a Class, java deletes the default constructor
+
+        Car e = new Car("honda", 10000);
+
+
+
+
+
     }
 }
