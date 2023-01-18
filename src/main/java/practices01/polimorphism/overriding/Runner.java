@@ -44,6 +44,7 @@ public class Runner {
            when you use "this", it means you are telling to java "do not go to the parent, stay in this class"
 
                METHOD OVERRIDING
+        note: method overriding has another name which is "dynamic polymorphism"
 
       1)when the child classes use the methods from the parent classes, we need to update implementation of the methods
         for example: in animal class eat() method tells "Animals eat", but to tell "Animals eat" in Cat class is not good
