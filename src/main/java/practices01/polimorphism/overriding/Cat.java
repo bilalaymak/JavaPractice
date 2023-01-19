@@ -18,7 +18,7 @@ public class Cat extends Mammal{
         System.out.println("Cats eat");//we changed method body by using overide method
     }
 
-    @Override
+    @Override //annotation is for checking the override rules by java, but it is not mandatory!!!
     public Mammal create() {
         return new Mammal();
     }
