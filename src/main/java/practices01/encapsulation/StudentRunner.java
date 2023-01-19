@@ -18,6 +18,10 @@ public class StudentRunner {
       if a class is "immutable", it is impossible to change the value of the existing variable
       if you want to make a class "immutable" do not create any "setter" method
 
+      note: to create "fully encapsulation"
+           i) make all variables "private"
+           ii) create getter and setter for every variable
+
    */
 
         Student std1 = new Student();

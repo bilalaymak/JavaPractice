@@ -10,6 +10,10 @@ public class Student {
 
     private boolean successful = false;
 
+
+    //getter methods
+    // in getter methods to capsulation, the return type of variables and getter method must be the sama
+    // ==>> int -int, boolean-boolean, String-String !!!
     public String getStId() {//getter method to read private variable
         return stId;
     }
@@ -18,16 +22,19 @@ public class Student {
         return stdGpa;
     }
 
-    public String getDisease(){//get method
+    public String getDisease(){//getter method
         return disease;
     }
 
-    public boolean isSuccessful() {//if data type os "boolean", get method name starts with "is"
+    public boolean isSuccessful() {//getter method
+        //if data type is "boolean", get method name starts with "is"
         return successful;
     }
 
+
+    // setter methods
     public void setDisease(String disease) {//setter method to update private variable
-        // return type is "void" in setter
+        // return type is "void" in setter. it must be void!!!
         //return type(String) is in parameter
         this.disease = disease;
     }
