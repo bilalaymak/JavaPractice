@@ -15,7 +15,7 @@ public class Cat extends Mammal{
     //we did override to do specific implementation
     public void eat() {
 
-        System.out.println("Cats eat");
+        System.out.println("Cats eat");//we changed method body by using overide method
     }
 
     @Override
