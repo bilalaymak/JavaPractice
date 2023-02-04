@@ -10,7 +10,7 @@ public class Stringbuilder01 {
         //String class is "immutable", "StringBuilder class" is "mutable"
 
         //String class is "immutable" because of that it does not change existing value
-        //if you want to assign a new value to variable, java will create a new container inside th "String Pool"
+        //if you want to assign a new value to variable, java will create a new container inside the "String Pool"
         //then will put new value in it, then changes the address pointer to the new container
         String name = "Tom";
         name = "Mark";

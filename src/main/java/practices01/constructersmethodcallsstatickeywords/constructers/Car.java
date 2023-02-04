@@ -1,5 +1,7 @@
 package practices01.constructersmethodcallsstatickeywords.constructers;
 
+import java.util.Objects;
+
 public class Car {
 
 
@@ -9,7 +11,7 @@ public class Car {
     its name is "Default Constructor"
     "Default constructor"s are invisible
 
-    if you create your own constructer, Java deletes the "Default Constructor"
+    if you create your own constructor, Java deletes the "Default Constructor"
      */
 
     //how to create "constructor"
@@ -42,25 +44,17 @@ public class Car {
         // give us flexibility to use these values
         this.make = make; // "this" means "make" variable in this Class
         // and this method provide flexibility us to change "Toyota" to any "kind of car"
-        // that is giving autorization user to change the value variable
+        // that is giving authorization user to change the value variable
         this.model = model;
         this.year = year;
         this.price = price;
     }
-    //we don't have to use all the parameters in the same costructer, we can use some parameters in the constructer
+    //we don't have to use all the parameters in the same construct, we can use some parameters in the constructor
     public Car(String make,String model,int year) {
         this.make = make;
         this.model = model;
         this.year = year;
     }
-
-
-
-
-
-
-
-
 
 
 }

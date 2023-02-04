@@ -10,7 +10,7 @@ public class StringBuffer {
          What is the difference between StringBuilder and StringBuffer?
          1) StringBuffer was created before StringBuilder in Java
          2) StringBuffer is "multi-thread(multitask)" but StringBuilder is not
-            StringBuilder does just one task, while StringBuffer does multi tasks to do
+            StringBuilder does just one task, while StringBuffer does multitask to do
          3) StringBuffer is using "multi-thread"(coklu dizin) characteristic because of that it is slower than StringBuilder
 
          Scenarios:

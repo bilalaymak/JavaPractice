@@ -6,15 +6,15 @@ public class Runner {
     //    Scanner input = new Scanner(System.in); // it is an object
 
         //create an object from "Car" class,
-        // Class name + object name = new + constructer;
+        // Class name + object name = new + constructor;
         Car audi =new Car();// constructor executes "Car constructor 1"
         System.out.println(audi.make);//Toyota
         System.out.println(audi.model);//Prius
 
-        //when we run the Car constructer (in the Runner Class)
+        //when we run the Car constructor (in the Runner Class)
         //1. Car constructor goes to the Car class
-        //2. finds the constructer
-        //3. what is the Car constructer doing is printing "Car constructor 1"
+        //2. finds the constructor
+        //3. what is the Car constructor doing is printing "Car constructor 1"
 
         Car bmw = new Car("BMW", "M5", 2022, 50000);//object
         //when we check the object is true or not, we type object name and plus "." ==> bmv.

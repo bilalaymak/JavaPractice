@@ -17,7 +17,7 @@ public class StaticBlock01 {
 
     /*
     1) Java Class Loader makes the classes ready to use
-    2) when th classes make ready, class members are loaded according to some order
+    2) when the classes make ready, class members are loaded according to some order
        main method is the first to be loaded normally
     3) sometimes we need something to be loaded before main method, for this scenario
        we use "static block"

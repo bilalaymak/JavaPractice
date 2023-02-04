@@ -10,7 +10,7 @@ public class Static01 {
        */
 
     // static variables = can be named as class variables as well, because the variable is attached to the class
-    // non=static variables can be named as object variables or instance(object and instance are synonyms) variables as well
+    // non-static variables can be named as "object variables" or "instance"(object and instance are synonyms) variables as well
 
         //how to create static variable
         //to make a variable "static", put "static" keyword between "access modifier" and "data type"
