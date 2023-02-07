@@ -7,7 +7,7 @@ public class Teacher {
 
     /*
        note: method overloading has another name which is "static polymorphism"
-      1) if you create a method with the same name and different parameters, ti means you are doing "method overloading"
+      1) if you create a method with the same name and different parameters, it means you are doing "method overloading"
       2)"method overloading" happens in a single class, therefore we do not need "inheritance" for "method overloading"
       3) to do "method overloading"
         i)  do not change the method name

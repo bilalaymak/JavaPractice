@@ -13,6 +13,7 @@ public class CarRunner {
         Honda class constructor 1
         civic class constructor 1
          */
+        System.out.println("********************");
         Civic d = new Civic(2023);
         /*
         it comes up to down!!
@@ -23,6 +24,7 @@ public class CarRunner {
 
         //when you create your own constructor in a Class, java deletes the default constructor
 
+        System.out.println("******************");
         Car e = new Car("honda", 10000);
 
 

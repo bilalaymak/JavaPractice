@@ -12,7 +12,7 @@ public class Student {
 
 
     //getter methods
-    // in getter methods to capsulation, the return type of variables and getter method must be the sama
+    // in getter methods to capsulation, the return type of variables and getter method must be the same
     // ==>> int -int, boolean-boolean, String-String !!!
     public String getStId() {//getter method to read private variable
         return stId;
@@ -43,8 +43,8 @@ public class Student {
         this.stdGpa = stdGpa;
     }
 
-    //even the data type is boolean we use "set" at the beginning of the name
+    //even if the data type is boolean we use "set" at the beginning of the name
     public void setSuccessful(boolean successful) {
-        this.successful = successful; //this keyword is important here, do not forget!!
+        this.successful = successful; //"this" keyword is important here, do not forget!!
     }
 }
