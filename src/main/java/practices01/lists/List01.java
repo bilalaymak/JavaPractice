@@ -1,7 +1,6 @@
 package practices01.lists;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class List01 {

@@ -1,7 +1,5 @@
 package practices01.constructersmethodcallsstatickeywords.constructers;
 
-import java.util.Objects;
-
 public class Car {
 
 

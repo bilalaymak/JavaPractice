@@ -1,7 +1,5 @@
 package practices01.stringbuilder;
 
-import java.util.Scanner;
-
 public class StringBuilder02 {
     public static void main(String[] args) {
 

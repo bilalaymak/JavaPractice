@@ -1,7 +1,5 @@
 package practices01.arrays.multidimensionalarrays;
 
-import java.util.Arrays;
-
 public class MultiDimensionalArrays04 {
     public static void main(String[] args) {
 
