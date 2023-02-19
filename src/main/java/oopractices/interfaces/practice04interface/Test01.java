@@ -1,4 +1,4 @@
-package oopractices.practice04interface;
+package oopractices.interfaces.practice04interface;
 
 public class Test01 {
 

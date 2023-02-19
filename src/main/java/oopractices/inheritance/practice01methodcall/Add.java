@@ -1,4 +1,4 @@
-package oopractices.practice01methodcall;
+package oopractices.inheritance.practice01methodcall;
 
 public class Add{
     //parent class of Division

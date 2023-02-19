@@ -1,6 +1,4 @@
-package oopractices.practice03interface;
-
-import static oopractices.practice03interface.Mammal.height;
+package oopractices.interfaces.practice03interface;
 
 public class Cat implements Mammal,Animal{
 
@@ -9,7 +7,7 @@ public class Cat implements Mammal,Animal{
 
         System.out.println(weight);
         System.out.println(Mammal.height);
-        System.out.println(Mammal.weight);
+        System.out.println(weight);
         System.out.println(Animal.height);
 
 

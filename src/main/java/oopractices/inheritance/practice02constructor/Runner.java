@@ -1,4 +1,4 @@
-package oopractices.practice02constructor;
+package oopractices.inheritance.practice02constructor;
 
 public class Runner {
 

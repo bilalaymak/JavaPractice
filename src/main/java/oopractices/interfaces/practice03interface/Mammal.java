@@ -1,4 +1,4 @@
-package oopractices.practice03interface;
+package oopractices.interfaces.practice03interface;
 
 public interface Mammal {
 
