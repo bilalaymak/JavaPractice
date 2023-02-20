@@ -8,6 +8,8 @@ public class E01 {
            i)using try-catch block: handling exception
            ii)throw exception and block the application
         3)if you do not handle the exception, java stops execution and the application is blocked
+        4) "try" can be used with a "single" or "more" catch blocks
+        5) "try" "cannot" be used "alone"
 
 */
         divide(6,0);//ArithmeticException  a number cannot be divided by zero
