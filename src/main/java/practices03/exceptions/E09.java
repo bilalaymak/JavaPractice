@@ -78,7 +78,7 @@ public class E09 {
 
     public static void readTheTextFromTheFile(){
         try {
-            FileInputStream fis = new FileInputStream("src\\main\\java\\practices03\\exceptionsX\\File.txt");
+            FileInputStream fis = new FileInputStream("src\\main\\java\\practices03\\exceptions\\File.txt");
             int k =0;
             while ((k =fis.read()) != -1){ // fis.read() gets every character's ascii value
                 //empty char gives -1 as ascii value

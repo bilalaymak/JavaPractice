@@ -26,6 +26,11 @@ public class Q01 {
         //3.Way: Create a method then call the method from main method
         System.out.println(revStr(str));
 
+
+
+
+
+
     }
 
     public static String revStr(String str) {
@@ -35,4 +40,12 @@ public class Q01 {
         }
         return revStr;
     }
+
+
+
+
+
+
+
+
 }
