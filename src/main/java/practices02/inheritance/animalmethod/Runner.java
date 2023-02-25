@@ -16,6 +16,7 @@ public class Runner extends Animal {
         c.drink();
         c.meow();
 
+
         System.out.println("******************");
 
      Animal a = new Animal();//parent class cannot access to child classes, but child class can do
@@ -23,9 +24,20 @@ public class Runner extends Animal {
          a.eat();
 
 
+//         Cat x = (Cat) new Animal();//down casting
+//        //but it throws "ClassCastException"
+//        //normally we cannot access from Cat class to Animal() constructor, we did it by down casting
+//        System.out.println("x.name = " + x.name);
+//        System.out.println("x.year = " + x.year);
+//        x.eat();
+//        x.meow();
+//        x.drink();
 
-
-
+        Animal y = new Cat();
+        //but we can access it from Animal class to Cat() constructor by up casting
+        System.out.println("x.name = " + y.year);//we call year variable just in Animal class not in the child class
+        y.drink();
+        y.eat();
 
 
 

@@ -8,5 +8,7 @@ public class Animal {
         System.out.println("Animals drink");
     }
 
+    int year = 12;
+
 
 }
