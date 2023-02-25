@@ -1,9 +1,6 @@
 package oopgokhanrepo.day31maps;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class HashMap01 {
     public static void main(String[] args) {
@@ -27,10 +24,21 @@ public class HashMap01 {
         hm1.put(103, "Mary");
         hm1.put(null, "Can");
         hm1.put(null, "Fatma");
-        hm1.put(104, null);
-        hm1.put(105, null);
+   //     hm1.put(104, null);
+    //    hm1.put(105, null);
         hm1.put(106, "");
 
+        //we get values  as array here
+       System.out.println("hashmap to array = " + Arrays.toString(hm1.values().toArray()));
+
+       //we get values from HashMap and converted to array, then took their length and then summed them
+        int sum = 0;
+        for (String w: hm1.values()){
+            sum = sum + w.length();
+        }
+        System.out.println(sum);
+
+        System.out.println("*********************************************");
         System.out.println(hm1);
 
         HashMap<Integer, String> hm2 = new HashMap<>();
