@@ -15,7 +15,7 @@ public class IteratorAndForEachLoop {
         System.out.println(list2);
 
         /*
-        Iterator is used to modifythe collections.
+        Iterator is used to modify the collections.
         It has three methods
             1)hasNext(); Returns true if there are more elements.Otherwise, returns false.
             2)next(); Returns the next element. Throws NoSuchElementException if there is not a next element
@@ -28,14 +28,12 @@ public class IteratorAndForEachLoop {
 
         while(itr1.hasNext()){
             System.out.println(itr1.next());
-
         }
 
         // We can use for-each() loop to print elements on the console as well
 
         for(String w: list2){
             System.out.println(w);
-
         }
 
         //What is the difference between for-each() and iterator?
@@ -46,9 +44,8 @@ public class IteratorAndForEachLoop {
         }
         System.out.println("After for-each() loop : " + list2);
 
-        // Before every while you need to use iterator()
 
-        //Before every while you need to use iterator()
+        //Before every while loop, you need to use iterator()
         Iterator<String> iterator2= list2.iterator();
 
         while(iterator2.hasNext()){

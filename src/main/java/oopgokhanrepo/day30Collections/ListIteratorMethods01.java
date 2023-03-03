@@ -46,6 +46,7 @@ public class ListIteratorMethods01 {
 
             Object element = listItr2.next();
             listItr2.set(element + "W");
+         //   listItr2.add(element + "X");
         }
 
         System.out.println("Updated list: " + list);

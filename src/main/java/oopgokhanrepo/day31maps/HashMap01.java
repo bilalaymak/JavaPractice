@@ -11,7 +11,7 @@ public class HashMap01 {
         In Maps Keys can not be Null except HashMap
         In HashMaps, you can use Null only once for keys
         but you can have  multiple Nulls for values
-        HasMap does not create elements in natural order that's why it is super fast
+        HasMap does not create elements in natural order that's why it is superfast
         HashMap is not thread safe
         HashMap is not synchronized
         When we use maps, if we give key, it will return always the value

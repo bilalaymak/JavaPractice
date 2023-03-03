@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Polimorplhic {
+public class Polimorphic {
     public static void main(String[] args) {
 
         List<String> list1 = new ArrayList<>();

@@ -13,15 +13,15 @@ public class LinkedList02 {
         ll3.add(2, 10);
         ll3.add(3, 11);
 
-        System.out.println(ll3);
+        System.out.println(ll3);//[12, 13, 10, 11]
 
         Integer first1 = ll3.remove(); // retrieve the first element and will remove it from the list
-        System.out.println(first1);
-        System.out.println(ll3);
+        System.out.println(first1);//12
+        System.out.println(ll3);//[13, 10, 11]
 
-        Integer first2 = ll3.remove(2);
+        Integer first2 = ll3.remove(2);//11
         System.out.println(first2); // retrieve 2 index element and remove it from the list
-        System.out.println(ll3);
+        System.out.println(ll3);//[13, 10]
 
         ll3.add(13);
         ll3.add(10);
@@ -44,8 +44,9 @@ public class LinkedList02 {
 
         System.out.println(ll4); // [3, 12, 13]
 
-        ll3.removeAll(ll4); //[10, 13, 10]  [3, 12, 13]
-        System.out.println(ll3); //[10, 10]
+        ll3.removeAll(ll4);// removes all common elements of ll4 from ll3
+        //[10, 13, 10]  [3, 12, 13]
+        System.out.println("removeAll() gives = " + ll3); //[10, 10]
 
         System.out.println(ll4); //[3, 12, 13]
         ll4.addAll(ll4);

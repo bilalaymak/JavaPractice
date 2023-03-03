@@ -22,6 +22,13 @@ public class Queue01 {
 
         Queue<String> q2 = new PriorityQueue<>();
 
+        /*
+        the difference between add() and offer()
+        when adding elements to a collection with a capacity limit is that add()
+        is a strict method that will always throw an exception if the collection is full,
+        while offer() is an optional method that may return false
+        if the element cannot be added due to capacity restrictions.
+         */
 
     }
 }

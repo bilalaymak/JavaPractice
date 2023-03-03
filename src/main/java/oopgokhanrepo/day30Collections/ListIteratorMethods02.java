@@ -1,6 +1,6 @@
 package oopgokhanrepo.day30Collections;
 
-import java.util.ArrayList;
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
@@ -15,10 +15,9 @@ public class ListIteratorMethods02 {
         System.out.println("List: " + list);
 
         //to remove all elements use remove() after next();
-        //if you do not use next you wil get IllegalStateException
+        //if you do not use next you wil get "IllegalStateException"
 
         ListIterator<String> listItr1 = list.listIterator();
-
         while (listItr1.hasNext()) {
             listItr1.next();
             listItr1.remove();

@@ -7,8 +7,8 @@ public interface AirCondition extends Vehicle {
     A class should be able to use multiple Interfaces as parent
     In an Interface, most methods are abstract,
     but we can still use some concrete methods that are static and default
-    we do not need to use abstract key word for an Interface(for Interface name)
-    If we use a variable in an Interface, we need to assign a value
+    we do not need to use abstract keyword for an Interface(for Interface name)
+    If we use a variable in an Interface, we need to assign a value (like final variables)
     In abstract class we can have constructors, but in Interface
     we can not have constructors
     Interface can not have concrete methods other than default and static, but abstract class can
