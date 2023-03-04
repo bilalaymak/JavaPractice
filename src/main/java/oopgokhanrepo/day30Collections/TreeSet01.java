@@ -6,7 +6,7 @@ import java.util.TreeSet;
 public class TreeSet01 {
     /*
     If you need to use unique elements in a natural order, then use TreeSet
-    it will sort the elements in ascending order
+    it will sort the elements in ascending order(natural order)
     HashSet is faster than TreeSet but TreeSet can also order the elements
 
      */
@@ -19,7 +19,7 @@ public class TreeSet01 {
         ts1.add(46);
         ts1.add(9);
 
-        System.out.println(ts1);
+        System.out.println(ts1);//[9, 10, 12, 35, 46]
 
 
         /*
@@ -44,6 +44,7 @@ public class TreeSet01 {
         System.out.println(ts2);
         Long t2 = System.nanoTime();
 
+       //2. way create a hashset and then convert it to a treemap
         HashSet<String> hs1 = new HashSet<>();
         hs1.add("K");
         hs1.add("Z");

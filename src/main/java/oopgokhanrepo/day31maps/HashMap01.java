@@ -24,22 +24,26 @@ public class HashMap01 {
         hm1.put(103, "Mary");
         hm1.put(null, "Can");
         hm1.put(null, "Fatma");
-   //     hm1.put(104, null);
-    //    hm1.put(105, null);
+    //  hm1.put(104, null);
+    //  hm1.put(105, null);
         hm1.put(106, "");
 
+        System.out.println("hm1 = " +hm1);//hm1 = {null=Fatma, 100=Ali, 101=Veli, 102=Kemal, 103=Mary, 106=}
+        System.out.println(hm1.get(100));//Ali
+        System.out.println(hm1.get(null));//Fatma
         //we get values  as array here
-       System.out.println("hashmap to array = " + Arrays.toString(hm1.values().toArray()));
+       System.out.println("hashmap values to array = " + Arrays.toString(hm1.values().toArray()));
+       //hashmap values to array = [Fatma, Ali, Veli, Kemal, Mary, ]
 
        //we get values from HashMap and converted to array, then took their length and then summed them
         int sum = 0;
         for (String w: hm1.values()){
             sum = sum + w.length();
         }
-        System.out.println(sum);
+        System.out.println(sum);//21
 
         System.out.println("*********************************************");
-        System.out.println(hm1);
+        System.out.println(hm1);//{null=Fatma, 100=Ali, 101=Veli, 102=Kemal, 103=Mary, 106=}
 
         HashMap<Integer, String> hm2 = new HashMap<>();
         hm2.put(87, "X");
@@ -51,11 +55,11 @@ public class HashMap01 {
         /*
         When we merge elements of a Map to another, we have to use the same data types
          */
-        System.out.println(hm1);
+        System.out.println(hm1);//{null=Fatma, 100=Ali, 101=Veli, 102=Kemal, 103=Mary, 87=X, 88=K, 89=L, 106=}
 
         hm1.putIfAbsent(102, "Z"); // this means if this key does not exist, then create this with new value
 
-        System.out.println(hm1);
+        System.out.println(hm1);//{null=Fatma, 100=Ali, 101=Veli, 102=Kemal, 103=Mary, 87=X, 88=K, 89=L, 106=}
         hm1.putIfAbsent(999, "Z");
 
         System.out.println(hm1);// if the key does not exist, then it will create new key value pair
@@ -67,7 +71,7 @@ public class HashMap01 {
         System.out.println(value2);//this is null
 
         String value3 = hm1.getOrDefault(999, "There is no key like that..");
-        // If you use getOrDefault and you have a valid key, it will return  value for the key
+        // If you use getOrDefault and you have a valid key, it will return value for the key
         System.out.println(value3);
 
         String value4 = hm1.getOrDefault(1000, "There is no key like that..");
@@ -80,11 +84,11 @@ public class HashMap01 {
         System.out.println("Keys : " + myKeys);
 
         Collection<String> myValues = hm1.values();// this will return collection for all values
-        System.out.println("Keys : " + myKeys);
+        System.out.println("My Keys : " + myKeys);
         System.out.println("My values : " + myValues);
 
         Set<Map.Entry<Integer, String>> setForm = hm1.entrySet();
-        System.out.println(setForm);
+        System.out.println("setForm = " + setForm);
 
 
         for (Map.Entry<Integer, String> each : setForm) {

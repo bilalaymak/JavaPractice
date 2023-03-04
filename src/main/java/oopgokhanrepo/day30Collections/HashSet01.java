@@ -15,13 +15,12 @@ public class HashSet01 {
          */
 
         HashSet<String> hs1 = new HashSet<>();
-
         hs1.add("K");
         hs1.add("K");
         hs1.add(null);
         hs1.add(null);
 
-        System.out.println(hs1);
+        System.out.println(hs1);//[null, K]
 
         HashSet<String> hs2 = new HashSet<>();
         hs2.add("K");
@@ -43,8 +42,8 @@ public class HashSet01 {
 
         HashSet<Integer> hs3 = new HashSet<>();
 
-        hs3.addAll(list);
 
+        hs3.addAll(list);
         System.out.println(hs3); //[2, 3, 5]
 
 
