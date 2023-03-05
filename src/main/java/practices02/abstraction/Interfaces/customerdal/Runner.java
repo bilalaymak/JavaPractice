@@ -16,9 +16,13 @@ public class Runner {
         // iii) UI layer
         // so we use interfaces to do transitions among layers to prevent dependencies among layers
 
+          //therefore, when we want to chage database operator, we just change the parameter in the parenthesis
+          CustomerManager customerManager = new CustomerManager(new OracleCustomerDal());
+    //      customerManager.customerDal = new OracleCustomerDal();
+    //      customerManager.customerDal = new MySqlCustomerDal();
+     //     customerManager.add();//added to MySQL database
+            customerManager.add();//added to Oracle database
 
-        ICustomerDal customerDal = new MySqlCustomerDal();
-        customerDal.add();
 
 
 
