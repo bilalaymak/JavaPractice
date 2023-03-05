@@ -1,4 +1,4 @@
-package practices02.abstraction.Interfaces;
+package practices02.abstraction.Interfaces.honda;
 
 /*
     1) an interface cannot have "concrete method"
