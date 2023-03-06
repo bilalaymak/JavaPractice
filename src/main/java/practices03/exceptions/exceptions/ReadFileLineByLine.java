@@ -1,4 +1,4 @@
-package practices03.exceptions;
+package practices03.exceptions.exceptions;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

@@ -1,4 +1,4 @@
-package practices03.exceptions;
+package practices03.exceptions.exceptions;
 
 public class E04 {
 

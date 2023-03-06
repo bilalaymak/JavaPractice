@@ -1,6 +1,7 @@
-package practices03.exceptions;
+package practices03.exceptions.exceptions;
 
-public class E01 {
+public class
+E01 {
     public static void main(String[] args) {
 /*
         1)"exception" means un-expected issues in code execution
