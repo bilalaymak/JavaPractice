@@ -1,6 +1,5 @@
 package jdbc.mySqlJdbc.jdbcIntro;
 
-import java.util.Date;
 
 public class Workers {
 
