@@ -1,4 +1,4 @@
-package jdbc;
+package jdbc.postgreSqlJdbc;
 
 import java.sql.*; //1. step import packages
 
@@ -9,9 +9,10 @@ public class DemoClass {
         String username = "postgres";
         String password = "12345";
         String query = "SELECT * FROM students";
+        String driver = "org.postgresql.Driver";
 
         try {
-            Class.forName("org.postgresql.Driver"); //2. step load and register the driver
+            Class.forName(driver); //2. step load and register the driver
             //3. step create and establishing the connection
             Connection connection = DriverManager.getConnection(url, username, password);
             System.out.println("baglanti basarili");//baglanti basarili
@@ -42,7 +43,7 @@ public class DemoClass {
              */
 
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
 
     }
