@@ -8,13 +8,13 @@ public class Runner {
 
 
     public static void main(String[] args) throws SQLException {
-
-          updateData(120,"Veli Yildiz",69,"Diyarbakir","2023-04-19");
-        System.out.println("***************");
-          insertData(119,"Mahmut Tan","Izmir",89,"2023-06-29");
-        System.out.println("***************");
-          deleteData(119);
-          System.out.println("***************");
+//
+//          updateData(120,"Veli Yildiz",69,"Diyarbakir","2023-04-19");
+//        System.out.println("***************");
+//          insertData(119,"Mahmut Tan","Izmir",89,"2023-06-29");
+//        System.out.println("***************");
+//          deleteData(119);
+//          System.out.println("***************");
           selectData("select * from practice.workers");
 
     }
@@ -72,7 +72,6 @@ Workers{id='127', name='Bilal Aymak', address='Bingol', exam_grade='80', registr
         }
 
     }
-
     public static void insertData(int id, String name, String address, int examGrade, String registrationDate) throws SQLException {
         DbHelper dbHelper = new DbHelper();
         Connection connection = null;
