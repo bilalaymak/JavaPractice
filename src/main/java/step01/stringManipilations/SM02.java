@@ -1,4 +1,4 @@
-package day06stringmanipulationsifstatements;
+package step01.stringManipilations;
 
 public class SM02 {
     public static void main(String[] args) {

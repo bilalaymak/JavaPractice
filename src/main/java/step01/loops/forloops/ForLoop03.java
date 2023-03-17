@@ -1,6 +1,6 @@
-package day09forloops;
+package step01.loops.forloops;
 
-public class ForLoop01 {
+public class ForLoop03 {
     public static void main(String[] args) {
 
         //Example 1: Type all integers from 11 to 44 "in the same line" with a space between consecutive integers

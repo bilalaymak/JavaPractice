@@ -1,6 +1,6 @@
-package day18varargsstringbuilderstringbuffer;
+package step01.stringbuilder;
 
-public class StringBuilder02 {
+public class StringBuilder04 {
     public static void main(String[] args) {
 
         //Another way to create a StringBuilder
@@ -36,13 +36,13 @@ public class StringBuilder02 {
 
         //crate a string by using stringbuilder class
 
-        StringBuffer sbf = new StringBuffer();
-        sbf.append("Wooow!");
-        int l3 = sbf.length();
-        System.out.println("l3 = " + l3);//l3 = 6
-
-        int c3 = sbf.capacity();
-        System.out.println("c3 = " + c3);//c3 = 16
+//        StringBuffer sbf = new StringBuffer();
+//        sbf.append("Wooow!");
+//        int l3 = sbf.length();
+//        System.out.println("l3 = " + l3);//l3 = 6
+//
+//        int c3 = sbf.capacity();
+//        System.out.println("c3 = " + c3);//c3 = 16
 
 
 

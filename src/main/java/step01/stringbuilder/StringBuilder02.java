@@ -1,4 +1,4 @@
-package practices01.stringbuilder;
+package step01.stringbuilder;
 
 public class StringBuilder02 {
     public static void main(String[] args) {

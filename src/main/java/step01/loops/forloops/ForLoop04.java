@@ -1,6 +1,6 @@
-package day09forloops;
+package step01.loops.forloops;
 
-public class ForLoop02 {
+public class ForLoop04 {
     public static void main(String[] args) {
 
         //Example 1: Put * between 2 consecutive characters and to the end in a String.

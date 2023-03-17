@@ -1,4 +1,4 @@
-package day03typecastingwrapperscanner;
+package step01.bScanner;
 
 import java.util.Scanner;
 

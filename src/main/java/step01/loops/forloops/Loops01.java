@@ -1,4 +1,4 @@
-package day08ternaryswitch;
+package step01.loops.forloops;
 
 public class Loops01 {
       /*

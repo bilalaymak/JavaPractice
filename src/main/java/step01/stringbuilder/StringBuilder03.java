@@ -1,6 +1,6 @@
-package day18varargsstringbuilderstringbuffer;
+package step01.stringbuilder;
 
-public class StringBuilder01 {
+public class StringBuilder03 {
 
   /*
      1)"StringBuilder" is a Class in Java, it is used to create Strings.

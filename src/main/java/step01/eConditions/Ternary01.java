@@ -1,4 +1,4 @@
-package day08ternaryswitch;
+package step01.eConditions;
 
 public class Ternary01 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day03typecastingwrapperscanner;
+package step01.cTypecastingWrapper;
 
 public class TypeCasting01 {
     public static void main(String[] args) {

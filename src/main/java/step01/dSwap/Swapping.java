@@ -1,6 +1,6 @@
-package day04stringmanipulations;
+package step01.dSwap;
 
-public class InterviewOuestion01Swapping {
+public class Swapping {
     public static void main(String[] args) {
 
         //Example 1: Type to swap the integers

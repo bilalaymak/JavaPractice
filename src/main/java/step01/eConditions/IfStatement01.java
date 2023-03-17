@@ -1,4 +1,4 @@
-package day06stringmanipulationsifstatements;
+package step01.eConditions;
 
 import java.util.Scanner;
 

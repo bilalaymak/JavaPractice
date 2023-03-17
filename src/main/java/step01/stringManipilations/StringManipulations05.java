@@ -1,6 +1,6 @@
-package day05stringmanipulations;
+package step01.stringManipilations;
 
-public class StringManipulations02 {
+public class StringManipulations05 {
     public static void main(String[] args) {
 
         //Example 1: Delete all "y"s from a given String

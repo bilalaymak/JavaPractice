@@ -1,4 +1,4 @@
-package practices01.loops.whileloops;
+package step01.loops.whileloops;
 
 import java.util.Scanner;
 

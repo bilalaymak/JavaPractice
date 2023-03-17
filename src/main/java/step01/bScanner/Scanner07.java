@@ -1,8 +1,8 @@
-package day04stringmanipulations;
+package step01.bScanner;
 
 import java.util.Scanner;
 
-public class Scanner01 {
+public class Scanner07 {
     public static void main(String[] args) {
 
         //Example 1: Get the initials of a name which contains first name and last name

@@ -1,6 +1,6 @@
-package day05stringmanipulations;
+package step01.stringManipilations;
 
-public class StringManipulations01 {
+public class StringManipulations04 {
     public static void main(String[] args) {
 
         //Example 1: Type code to check if the seventh character of a given String is "a" or not
